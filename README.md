@@ -53,6 +53,45 @@ Engenheiro de Machine Learning e Auditor Líder ISO/IEC 42001, fundador da **dat
 
 <div align="center">
 
+## 🎓 Certificações
+
+<table>
+  <tr>
+    <td align="center" width="250">
+      <img src="https://github.com/ricardofrugoni/ricardofrugoni/raw/main/badges/iso-iec-42001-lead-auditor.png" width="200" alt="ISO/IEC 42001 Lead Auditor"/>
+      <br><b>ISO/IEC 42001</b>
+      <br>Lead Auditor - PECB
+    </td>
+    <td align="center" width="250">
+      <img src="https://github.com/ricardofrugoni/ricardofrugoni/raw/main/badges/image__5_.png" width="200" alt="AWS ML Engineer"/>
+      <br><b>AWS Certified</b>
+      <br>Machine Learning Engineer
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="250">
+      <img src="https://github.com/ricardofrugoni/ricardofrugoni/raw/main/badges/ibm-ai-engineering-professional-certificate-v3.png" width="200" alt="IBM AI Engineering"/>
+      <br><b>IBM AI Engineering</b>
+      <br>Professional Certificate
+    </td>
+    <td align="center" width="250">
+      <img src="https://github.com/ricardofrugoni/ricardofrugoni/raw/main/badges/ibm-machine-learning-specialist-advanced.png" width="200" alt="IBM ML Specialist"/>
+      <br><b>IBM ML Specialist</b>
+      <br>Advanced v1
+    </td>
+  </tr>
+</table>
+
+<a href="https://www.credly.com/users/ricardofrugoni/badges">
+  <img src="https://img.shields.io/badge/Ver%20Todas%20as%20Certificações-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Ver Todas"/>
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
 ## My Stack 🔥
 
 ### **Languages & ML Frameworks**
@@ -170,46 +209,6 @@ Engenheiro de Machine Learning e Auditor Líder ISO/IEC 42001, fundador da **dat
   </tr>
 </table>
 
-### **Tools & Version Control**
-
-<table>
-  <tr>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="48" height="48" alt="Git"/>
-      <br>Git
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="48" height="48" alt="GitHub"/>
-      <br>GitHub
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" width="48" height="48" alt="GitLab"/>
-      <br>GitLab
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="48" height="48" alt="VS Code"/>
-      <br>VS Code
-    </td>
-  </tr>
-</table>
-
-</div>
-
----
-
-<div align="center">
-
-### 📊 GitHub Stats
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=ricardofrugoni&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ricardofrugoni&layout=compact&theme=tokyonight&langs_count=8&hide_border=true"/>
-
-</div>
-
-<div align="center">
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ricardofrugoni&theme=tokyonight&hide_border=true)
-
 </div>
 
 ---
@@ -243,18 +242,6 @@ Engenheiro de Machine Learning e Auditor Líder ISO/IEC 42001, fundador da **dat
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ricardofrugoni/ricardofrugoni/output/github-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/ricardofrugoni/ricardofrugoni/output/github-snake-dark.svg" />
 </picture>
-
-</div>
-
----
-
-<div align="center">
-
-### 🎯 Certificações & Badges
-
-<a href="https://www.credly.com/users/ricardofrugoni/badges">
-  <img src="https://img.shields.io/badge/View%20All%20Certifications-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly Certifications"/>
-</a>
 
 </div>
 
