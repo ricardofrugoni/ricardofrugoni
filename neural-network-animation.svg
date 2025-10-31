@@ -1,0 +1,197 @@
+<svg width="800" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradiente para os neurônios -->
+    <radialGradient id="neuronGrad">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0077B5;stop-opacity:1" />
+    </radialGradient>
+    
+    <!-- Gradiente para os pulsos -->
+    <linearGradient id="pulseGrad">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:0" />
+      <stop offset="50%" style="stop-color:#00FFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00D9FF;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Fundo -->
+  <rect width="800" height="300" fill="#0d1117"/>
+  
+  <!-- Título -->
+  <text x="400" y="35" font-family="'Fira Code', monospace" font-size="24" fill="#00D9FF" text-anchor="middle" font-weight="bold">
+    Neural Network Forward Propagation
+  </text>
+  
+  <!-- Labels das camadas -->
+  <text x="80" y="75" font-family="'Fira Code', monospace" font-size="14" fill="#8B949E" text-anchor="middle">Input Layer</text>
+  <text x="280" y="75" font-family="'Fira Code', monospace" font-size="14" fill="#8B949E" text-anchor="middle">Hidden Layer 1</text>
+  <text x="520" y="75" font-family="'Fira Code', monospace" font-size="14" fill="#8B949E" text-anchor="middle">Hidden Layer 2</text>
+  <text x="720" y="75" font-family="'Fira Code', monospace" font-size="14" fill="#8B949E" text-anchor="middle">Output Layer</text>
+  
+  <!-- Conexões Input -> Hidden 1 -->
+  <g opacity="0.3">
+    <line x1="80" y1="110" x2="280" y2="110" stroke="#00D9FF" stroke-width="1"/>
+    <line x1="80" y1="110" x2="280" y2="150" stroke="#00D9FF" stroke-width="1"/>
+    <line x1="80" y1="110" x2="280" y2="190" stroke="#00D9FF" stroke-width="1"/>
+    <line x1="80" y1="110" x2="280" y2="230" stroke="#00D9FF" stroke-width="1"/>
+    
+    <line x1="80" y1="150" x2="280" y2="110" stroke="#00D9FF" stroke-width="1"/>
+    <line x1="80" y1="150" x2="280" y2="150" stroke="#00D9FF" stroke-width="1"/>
+    <line x1="80" y1="150" x2="280" y2="190" stroke="#00D9FF" stroke-width="1"/>
+    <line x1="80" y1="150" x2="280" y2="230" stroke="#00D9FF" stroke-width="1"/>
+    
+    <line x1="80" y1="190" x2="280" y2="110" stroke="#00D9FF" stroke-width="1"/>
+    <line x1="80" y1="190" x2="280" y2="150" stroke="#00D9FF" stroke-width="1"/>
+    <line x1="80" y1="190" x2="280" y2="190" stroke="#00D9FF" stroke-width="1"/>
+    <line x1="80" y1="190" x2="280" y2="230" stroke="#00D9FF" stroke-width="1"/>
+    
+    <line x1="80" y1="230" x2="280" y2="110" stroke="#00D9FF" stroke-width="1"/>
+    <line x1="80" y1="230" x2="280" y2="150" stroke="#00D9FF" stroke-width="1"/>
+    <line x1="80" y1="230" x2="280" y2="190" stroke="#00D9FF" stroke-width="1"/>
+    <line x1="80" y1="230" x2="280" y2="230" stroke="#00D9FF" stroke-width="1"/>
+  </g>
+  
+  <!-- Conexões Hidden 1 -> Hidden 2 -->
+  <g opacity="0.3">
+    <line x1="280" y1="110" x2="520" y2="130" stroke="#00D9FF" stroke-width="1"/>
+    <line x1="280" y1="110" x2="520" y2="170" stroke="#00D9FF" stroke-width="1"/>
+    <line x1="280" y1="110" x2="520" y2="210" stroke="#00D9FF" stroke-width="1"/>
+    
+    <line x1="280" y1="150" x2="520" y2="130" stroke="#00D9FF" stroke-width="1"/>
+    <line x1="280" y1="150" x2="520" y2="170" stroke="#00D9FF" stroke-width="1"/>
+    <line x1="280" y1="150" x2="520" y2="210" stroke="#00D9FF" stroke-width="1"/>
+    
+    <line x1="280" y1="190" x2="520" y2="130" stroke="#00D9FF" stroke-width="1"/>
+    <line x1="280" y1="190" x2="520" y2="170" stroke="#00D9FF" stroke-width="1"/>
+    <line x1="280" y1="190" x2="520" y2="210" stroke="#00D9FF" stroke-width="1"/>
+    
+    <line x1="280" y1="230" x2="520" y2="130" stroke="#00D9FF" stroke-width="1"/>
+    <line x1="280" y1="230" x2="520" y2="170" stroke="#00D9FF" stroke-width="1"/>
+    <line x1="280" y1="230" x2="520" y2="210" stroke="#00D9FF" stroke-width="1"/>
+  </g>
+  
+  <!-- Conexões Hidden 2 -> Output -->
+  <g opacity="0.3">
+    <line x1="520" y1="130" x2="720" y2="150" stroke="#00D9FF" stroke-width="1"/>
+    <line x1="520" y1="130" x2="720" y2="190" stroke="#00D9FF" stroke-width="1"/>
+    
+    <line x1="520" y1="170" x2="720" y2="150" stroke="#00D9FF" stroke-width="1"/>
+    <line x1="520" y1="170" x2="720" y2="190" stroke="#00D9FF" stroke-width="1"/>
+    
+    <line x1="520" y1="210" x2="720" y2="150" stroke="#00D9FF" stroke-width="1"/>
+    <line x1="520" y1="210" x2="720" y2="190" stroke="#00D9FF" stroke-width="1"/>
+  </g>
+  
+  <!-- Pulsos animados (exemplos em algumas conexões) -->
+  <circle r="3" fill="url(#pulseGrad)">
+    <animateMotion dur="2s" repeatCount="indefinite">
+      <mpath href="#path1"/>
+    </animateMotion>
+  </circle>
+  <path id="path1" d="M 80,110 L 280,150" fill="none" stroke="none"/>
+  
+  <circle r="3" fill="url(#pulseGrad)">
+    <animateMotion dur="2.2s" repeatCount="indefinite">
+      <mpath href="#path2"/>
+    </animateMotion>
+  </circle>
+  <path id="path2" d="M 80,150 L 280,190" fill="none" stroke="none"/>
+  
+  <circle r="3" fill="url(#pulseGrad)">
+    <animateMotion dur="2.5s" repeatCount="indefinite">
+      <mpath href="#path3"/>
+    </animateMotion>
+  </circle>
+  <path id="path3" d="M 280,110 L 520,170" fill="none" stroke="none"/>
+  
+  <circle r="3" fill="url(#pulseGrad)">
+    <animateMotion dur="2.8s" repeatCount="indefinite">
+      <mpath href="#path4"/>
+    </animateMotion>
+  </circle>
+  <path id="path4" d="M 280,190 L 520,130" fill="none" stroke="none"/>
+  
+  <circle r="3" fill="url(#pulseGrad)">
+    <animateMotion dur="3s" repeatCount="indefinite">
+      <mpath href="#path5"/>
+    </animateMotion>
+  </circle>
+  <path id="path5" d="M 520,170 L 720,150" fill="none" stroke="none"/>
+  
+  <!-- Input Layer Neurons -->
+  <g>
+    <circle cx="80" cy="110" r="12" fill="url(#neuronGrad)" stroke="#00FFFF" stroke-width="2">
+      <animate attributeName="r" values="12;14;12" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="80" cy="150" r="12" fill="url(#neuronGrad)" stroke="#00FFFF" stroke-width="2">
+      <animate attributeName="r" values="12;14;12" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="80" cy="190" r="12" fill="url(#neuronGrad)" stroke="#00FFFF" stroke-width="2">
+      <animate attributeName="r" values="12;14;12" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="80" cy="230" r="12" fill="url(#neuronGrad)" stroke="#00FFFF" stroke-width="2">
+      <animate attributeName="r" values="12;14;12" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Hidden Layer 1 Neurons -->
+  <g>
+    <circle cx="280" cy="110" r="12" fill="url(#neuronGrad)" stroke="#00FFFF" stroke-width="2">
+      <animate attributeName="r" values="12;14;12" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="280" cy="150" r="12" fill="url(#neuronGrad)" stroke="#00FFFF" stroke-width="2">
+      <animate attributeName="r" values="12;14;12" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="280" cy="190" r="12" fill="url(#neuronGrad)" stroke="#00FFFF" stroke-width="2">
+      <animate attributeName="r" values="12;14;12" dur="2.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="280" cy="230" r="12" fill="url(#neuronGrad)" stroke="#00FFFF" stroke-width="2">
+      <animate attributeName="r" values="12;14;12" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Hidden Layer 2 Neurons -->
+  <g>
+    <circle cx="520" cy="130" r="12" fill="url(#neuronGrad)" stroke="#00FFFF" stroke-width="2">
+      <animate attributeName="r" values="12;14;12" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="520" cy="170" r="12" fill="url(#neuronGrad)" stroke="#00FFFF" stroke-width="2">
+      <animate attributeName="r" values="12;14;12" dur="2.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="520" cy="210" r="12" fill="url(#neuronGrad)" stroke="#00FFFF" stroke-width="2">
+      <animate attributeName="r" values="12;14;12" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Output Layer Neurons -->
+  <g>
+    <circle cx="720" cy="150" r="12" fill="url(#neuronGrad)" stroke="#00FFFF" stroke-width="2">
+      <animate attributeName="r" values="12;14;12" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="720" cy="190" r="12" fill="url(#neuronGrad)" stroke="#00FFFF" stroke-width="2">
+      <animate attributeName="r" values="12;14;12" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Adicionar mais pulsos para deixar mais dinâmico -->
+  <circle r="3" fill="#00FFFF" opacity="0.8">
+    <animateMotion dur="2.1s" repeatCount="indefinite">
+      <mpath href="#path6"/>
+    </animateMotion>
+  </circle>
+  <path id="path6" d="M 80,190 L 280,110" fill="none" stroke="none"/>
+  
+  <circle r="3" fill="#00FFFF" opacity="0.8">
+    <animateMotion dur="2.4s" repeatCount="indefinite">
+      <mpath href="#path7"/>
+    </animateMotion>
+  </circle>
+  <path id="path7" d="M 280,150 L 520,210" fill="none" stroke="none"/>
+  
+  <circle r="3" fill="#00FFFF" opacity="0.8">
+    <animateMotion dur="2.7s" repeatCount="indefinite">
+      <mpath href="#path8"/>
+    </animateMotion>
+  </circle>
+  <path id="path8" d="M 520,130 L 720,190" fill="none" stroke="none"/>
+</svg>
