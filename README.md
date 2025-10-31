@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- Wave Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18&height=250&section=header&text=Ricardo%20Frugoni&fontSize=70&fontAlignY=35&animation=twinkling&fontColor=ffffff&desc=Machine%20Learning%20Engineer%20%7C%20ISO%2042001%20Lead%20Auditor&descSize=20&descAlignY=55"/>
+<!-- Wave Header - Altura Reduzida -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18&height=180&section=header&text=Ricardo%20Frugoni&fontSize=60&fontAlignY=40&animation=twinkling&fontColor=ffffff&desc=Machine%20Learning%20Engineer%20%7C%20ISO%2042001%20Lead%20Auditor&descSize=18&descAlignY=60"/>
 
 </div>
 
@@ -10,15 +10,13 @@
   <img src="https://readme-typing-svg.herokuapp.com/?lines=Machine+Learning+Engineer+🤖;ISO/IEC+42001+Lead+Auditor+📋;MLOps+%26+Production+AI+Systems+🚀;RAG+Secure+Solutions+🔒;End-to-End+AI/ML+Pipelines+⚡;AI+Governance+%26+XAI+Expert+🎯&font=Fira%20Code&center=true&width=700&height=70&duration=4000&pause=1000&color=00D9FF&size=24" alt="Typing SVG" />
 </div>
 
----
-
 <div align="center">
 
 ### 👨‍💻 Sobre Mim
 
 </div>
 
-Engenheiro de Machine Learning e Auditor Líder ISO/IEC 42001, fundador da **codex42.ai**. Entrego pipelines de IA/ML end-to-end em produção (feature engineering, training, tuning e serving) com MLOps completo (MLflow/W&B, Docker/K8s, CI/CD, monitoramento de drift). Crio soluções de IA generativa com RAG seguro (on-prem/private cloud), integro via APIs/microservices e aplico governança de IA para transparência, fairness, XAI e conformidade.
+Engenheiro de Machine Learning e Auditor Líder ISO/IEC 42001, fundador da **data2deals**. Entrego pipelines de IA/ML end-to-end em produção (feature engineering, training, tuning e serving) com MLOps completo (MLflow/W&B, Docker/K8s, CI/CD, monitoramento de drift). Crio soluções de IA generativa com RAG seguro (on-prem/private cloud), integro via APIs/microservices e aplico governança de IA para transparência, fairness, XAI e conformidade.
 
 <div align="center">
 
@@ -57,25 +55,18 @@ Engenheiro de Machine Learning e Auditor Líder ISO/IEC 42001, fundador da **cod
 
 <table>
   <tr>
-    <td align="center" width="250">
-      <img src="https://github.com/ricardofrugoni/ricardofrugoni/raw/main/badges/iso-iec-42001-lead-auditor.png" width="200" alt="ISO/IEC 42001 Lead Auditor"/>
+    <td align="center" width="280">
+      <img src="https://github.com/ricardofrugoni/ricardofrugoni/raw/main/badges/iso-iec-42001-lead-auditor.png" width="220" alt="ISO/IEC 42001 Lead Auditor"/>
       <br><b>ISO/IEC 42001</b>
       <br>Lead Auditor - PECB
     </td>
-    <td align="center" width="250">
-      <img src="https://github.com/ricardofrugoni/ricardofrugoni/raw/main/badges/image__5_.png" width="200" alt="AWS ML Engineer"/>
-      <br><b>AWS Certified</b>
-      <br>Machine Learning Engineer
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="250">
-      <img src="https://github.com/ricardofrugoni/ricardofrugoni/raw/main/badges/ibm-ai-engineering-professional-certificate-v3.png" width="200" alt="IBM AI Engineering"/>
+    <td align="center" width="280">
+      <img src="https://github.com/ricardofrugoni/ricardofrugoni/raw/main/badges/ibm-ai-engineering-professional-certificate-v3.png" width="220" alt="IBM AI Engineering"/>
       <br><b>IBM AI Engineering</b>
       <br>Professional Certificate
     </td>
-    <td align="center" width="250">
-      <img src="https://github.com/ricardofrugoni/ricardofrugoni/raw/main/badges/ibm-machine-learning-specialist-advanced.png" width="200" alt="IBM ML Specialist"/>
+    <td align="center" width="280">
+      <img src="https://github.com/ricardofrugoni/ricardofrugoni/raw/main/badges/ibm-machine-learning-specialist-advanced.png" width="220" alt="IBM ML Specialist"/>
       <br><b>IBM ML Specialist</b>
       <br>Advanced v1
     </td>
@@ -103,6 +94,24 @@ Engenheiro de Machine Learning e Auditor Líder ISO/IEC 42001, fundador da **cod
       <br>Python
     </td>
     <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="48" height="48" alt="C"/>
+      <br>C
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" width="48" height="48" alt="Rust"/>
+      <br>Rust
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/julia/julia-original.svg" width="48" height="48" alt="Julia"/>
+      <br>Julia
+    </td>
+    <td align="center" width="96">
+      <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/r-lang.svg" width="48" height="48" alt="R"/>
+      <br>R
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="48" height="48" alt="TensorFlow"/>
       <br>TensorFlow
     </td>
@@ -113,10 +122,6 @@ Engenheiro de Machine Learning e Auditor Líder ISO/IEC 42001, fundador da **cod
     <td align="center" width="96">
       <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="48" height="48" alt="Scikit-Learn"/>
       <br>Scikit-Learn
-    </td>
-    <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/r-lang.svg" width="48" height="48" alt="R"/>
-      <br>R
     </td>
   </tr>
 </table>
@@ -208,50 +213,5 @@ Engenheiro de Machine Learning e Auditor Líder ISO/IEC 42001, fundador da **cod
     </td>
   </tr>
 </table>
-
-</div>
-
----
-
-<div align="center">
-
-### 🏆 GitHub Trophies
-
-<img src="https://github-profile-trophy.vercel.app/?username=ricardofrugoni&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&row=2&column=6" alt="Trophies"/>
-
-</div>
-
----
-
-<div align="center">
-
-### 📈 Activity Graph
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ricardofrugoni&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
-
-</div>
-
----
-
-<div align="center">
-
-### 🐍 Contribution Snake
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ricardofrugoni/ricardofrugoni/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ricardofrugoni/ricardofrugoni/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/ricardofrugoni/ricardofrugoni/output/github-snake-dark.svg" />
-</picture>
-
-</div>
-
----
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=ricardofrugoni&color=blueviolet&style=for-the-badge&label=Profile+Views)
-
-<!-- Footer Wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18&height=120&section=footer"/>
 
 </div>
