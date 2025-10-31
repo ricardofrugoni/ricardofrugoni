@@ -3,20 +3,20 @@
 <!-- Wave Header - Altura Reduzida e Nome Mais Alto -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18&height=160&section=header&text=Ricardo%20Frugoni&fontSize=60&fontAlignY=30&animation=twinkling&fontColor=ffffff&desc=Machine%20Learning%20Engineer%20%7C%20ISO%2042001%20Lead%20Auditor&descSize=18&descAlignY=52"/>
 
-<!-- Typing Animation - Espaço Reduzido -->
-<img src="https://readme-typing-svg.herokuapp.com/?lines=AI+Governance+%26+XAI+Expert+🎯;MLOps+%26+Production+AI+Systems+🚀;RAG+Secure+Solutions+🔒;End-to-End+AI/ML+Pipelines+⚡&font=Fira%20Code&center=true&width=700&height=50&duration=4000&pause=1000&color=00D9FF&size=22" alt="Typing SVG" />
+<!-- Neural Network Animation -->
+<img src="https://github.com/ricardofrugoni/ricardofrugoni/raw/main/neural-network-animation.svg" width="800" alt="Neural Network Forward Propagation"/>
 
 </div>
 
-### 👨‍💻 Sobre Mim
+### 👨‍💻 About Me
 
-Bacharel em Matemática (UFF), Estatístico(IBMR), Tecnólogo em Inteligência Artificial (FIAP), MBA em Gestão de Projetos com IA(Ibmec). Engenheiro de Machine Learning e Auditor Líder ISO/IEC 42001, fundador da **codex42.ai**. Entrego pipelines de IA/ML end-to-end em produção (feature engineering, training, tuning e serving) com MLOps completo (MLflow/W&B, Docker/K8s, CI/CD, monitoramento de drift). Crio soluções de IA generativa com RAG seguro (on-prem/private cloud), integro via APIs/microservices e aplico governança de IA para transparência, fairness, XAI e conformidade.
+Machine Learning Engineer and ISO/IEC 42001 Lead Auditor, founder of **data2deals**. I deliver end-to-end AI/ML pipelines in production (feature engineering, training, tuning, and serving) with complete MLOps (MLflow/W&B, Docker/K8s, CI/CD, drift monitoring). I create generative AI solutions with secure RAG (on-prem/private cloud), integrate via APIs/microservices, and apply AI governance for transparency, fairness, XAI, and compliance.
 
 <div align="center">
 
-**MLE | Auditor Líder ISO 42001 | RAG seguro em produção + MLOps de ponta a ponta.**
+**MLE | ISO 42001 Lead Auditor | Secure RAG in production + End-to-End MLOps**
 
-**Stack-chave:** Python, TensorFlow, PyTorch, Scikit-Learn, MLflow, Docker, Kubernetes, FastAPI/Node.js, SQL/NoSQL, AWS/Azure/GCP.
+**Key Stack:** Python, TensorFlow, PyTorch, Scikit-Learn, MLflow, Docker, Kubernetes, FastAPI/Node.js, SQL/NoSQL, AWS/Azure/GCP.
 
 </div>
 
@@ -45,7 +45,7 @@ Bacharel em Matemática (UFF), Estatístico(IBMR), Tecnólogo em Inteligência A
 
 <div align="center">
 
-## 🎓 Certificações
+## 🎓 Certifications
 
 <table>
   <tr>
@@ -68,7 +68,7 @@ Bacharel em Matemática (UFF), Estatístico(IBMR), Tecnólogo em Inteligência A
 </table>
 
 <a href="https://www.credly.com/users/ricardofrugoni/badges">
-  <img src="https://img.shields.io/badge/Ver%20Todas%20as%20Certificações-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Ver Todas"/>
+  <img src="https://img.shields.io/badge/View%20All%20Certifications-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="View All"/>
 </a>
 
 </div>
