@@ -64,6 +64,10 @@ Machine Learning Engineer and ISO/IEC 42001 Lead Auditor, founder of **data2deal
       <br><b>IBM ML Specialist</b>
       <br>Advanced v1
     </td>
+    <td align="center" width="280">
+    <img src="https://github.com/ricardofrugoni/ricardofrugoni/raw/main/badges/ibm-data-science-professional-certificate-v3 (2).png" width="220" alt="IBM Data Science"/>
+      <br><b>IBM Data Science</b>
+      <br>Professional Certificate 
   </tr>
 </table>
 
