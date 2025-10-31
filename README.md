@@ -1,20 +1,14 @@
 <div align="center">
 
-<!-- Wave Header - Altura Reduzida -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18&height=180&section=header&text=Ricardo%20Frugoni&fontSize=60&fontAlignY=40&animation=twinkling&fontColor=ffffff&desc=Machine%20Learning%20Engineer%20%7C%20ISO%2042001%20Lead%20Auditor&descSize=18&descAlignY=60"/>
+<!-- Wave Header - Altura Reduzida e Nome Mais Alto -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18&height=160&section=header&text=Ricardo%20Frugoni&fontSize=60&fontAlignY=30&animation=twinkling&fontColor=ffffff&desc=Machine%20Learning%20Engineer%20%7C%20ISO%2042001%20Lead%20Auditor&descSize=18&descAlignY=52"/>
+
+<!-- Typing Animation - Espaço Reduzido -->
+<img src="https://readme-typing-svg.herokuapp.com/?lines=AI+Governance+%26+XAI+Expert+🎯;MLOps+%26+Production+AI+Systems+🚀;RAG+Secure+Solutions+🔒;End-to-End+AI/ML+Pipelines+⚡&font=Fira%20Code&center=true&width=700&height=50&duration=4000&pause=1000&color=00D9FF&size=22" alt="Typing SVG" />
 
 </div>
-
-<!-- Typing Animation -->
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Machine+Learning+Engineer+🤖;ISO/IEC+42001+Lead+Auditor+📋;MLOps+%26+Production+AI+Systems+🚀;RAG+Secure+Solutions+🔒;End-to-End+AI/ML+Pipelines+⚡;AI+Governance+%26+XAI+Expert+🎯&font=Fira%20Code&center=true&width=700&height=70&duration=4000&pause=1000&color=00D9FF&size=24" alt="Typing SVG" />
-</div>
-
-<div align="center">
 
 ### 👨‍💻 Sobre Mim
-
-</div>
 
 Engenheiro de Machine Learning e Auditor Líder ISO/IEC 42001, fundador da **data2deals**. Entrego pipelines de IA/ML end-to-end em produção (feature engineering, training, tuning e serving) com MLOps completo (MLflow/W&B, Docker/K8s, CI/CD, monitoramento de drift). Crio soluções de IA generativa com RAG seguro (on-prem/private cloud), integro via APIs/microservices e aplico governança de IA para transparência, fairness, XAI e conformidade.
 
@@ -94,7 +88,7 @@ Engenheiro de Machine Learning e Auditor Líder ISO/IEC 42001, fundador da **dat
       <br>Python
     </td>
     <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="48" height="48" alt="C"/>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="48" height="48" alt="C"/>
       <br>C
     </td>
     <td align="center" width="96">
@@ -118,6 +112,10 @@ Engenheiro de Machine Learning e Auditor Líder ISO/IEC 42001, fundador da **dat
     <td align="center" width="96">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="48" height="48" alt="PyTorch"/>
       <br>PyTorch
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" width="48" height="48" alt="Keras"/>
+      <br>Keras
     </td>
     <td align="center" width="96">
       <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="48" height="48" alt="Scikit-Learn"/>
