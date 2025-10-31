@@ -18,7 +18,7 @@
 
 </div>
 
-Engenheiro de Machine Learning e Auditor Líder ISO/IEC 42001, fundador da **data2deals**. Entrego pipelines de IA/ML end-to-end em produção (feature engineering, training, tuning e serving) com MLOps completo (MLflow/W&B, Docker/K8s, CI/CD, monitoramento de drift). Crio soluções de IA generativa com RAG seguro (on-prem/private cloud), integro via APIs/microservices e aplico governança de IA para transparência, fairness, XAI e conformidade.
+Engenheiro de Machine Learning e Auditor Líder ISO/IEC 42001, fundador da **codex42.ai**. Entrego pipelines de IA/ML end-to-end em produção (feature engineering, training, tuning e serving) com MLOps completo (MLflow/W&B, Docker/K8s, CI/CD, monitoramento de drift). Crio soluções de IA generativa com RAG seguro (on-prem/private cloud), integro via APIs/microservices e aplico governança de IA para transparência, fairness, XAI e conformidade.
 
 <div align="center">
 
